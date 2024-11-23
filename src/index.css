@@ -99,6 +99,14 @@ button:focus-visible {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
     --background: 0 0% 0%; /* Pure black */
@@ -124,7 +132,15 @@ button:focus-visible {
     --chart-2: 160 60% 45%; /* Green for diversity */
     --chart-3: 30 80% 55%; /* Orange for highlights */
     --chart-4: 280 65% 60%; /* Purple for variety */
-    --chart-5: 340 75% 55%; /* Pink for contrast */
+    --chart-5: 340 75% 55%; /* Pink for contrast */ 
+    --sidebar-background: 0 0% 7%; /* A very dark grey for subtle contrast */
+    --sidebar-foreground: 220 15% 85%; /* Soft light grey for readability */
+    --sidebar-primary: 212 70% 45%; /* A vibrant, slightly muted blue for a polished look */
+    --sidebar-primary-foreground: 0 0% 100%; /* Pure white for strong contrast */
+    --sidebar-accent: 0 0% 12%; /* A richer grey for hover or accent backgrounds */
+    --sidebar-accent-foreground: 220 15% 85%; /* Light grey text for consistency */
+    --sidebar-border: 0 0% 20%; /* A medium grey for clear but subtle borders */
+    --sidebar-ring: 212 70% 45%; /* Vibrant blue matching the primary theme */
   }
 }
 
