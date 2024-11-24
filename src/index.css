@@ -109,7 +109,8 @@ button:focus-visible {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 0 0% 0%; /* Pure black */
+     /* Pure black */
+    --background: 240 10% 3.9%;
     --foreground: 210 40% 98%; /* Off-white for readability */
     --card: 0 0% 10%; /* Dark grey for subtle differentiation */
     --card-foreground: 210 40% 98%; /* Matches text on dark cards */

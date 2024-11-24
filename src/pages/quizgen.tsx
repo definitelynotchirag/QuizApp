@@ -68,7 +68,6 @@ const QuizGenerator = () => {
   return (
     <div className="min-h-screen bg-background flex items-start justify-center px-4 py-16">
       <div className="w-full max-w-3xl">
-        {/* Title Section */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-primary mb-3">
             Quiz Generator
@@ -78,7 +77,6 @@ const QuizGenerator = () => {
           </p>
         </div>
 
-        {/* Main Content */}
         <MagicCard
           className="w-full bg-card border-border p-8 rounded-xl shadow-lg flex justify-center items-center"
           hoverEffect="glow"

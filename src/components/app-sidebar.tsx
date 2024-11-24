@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/sidebar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-// Menu items.
+
 const items = [
   {
     title: "Home",
@@ -49,10 +49,6 @@ export function AppSidebar() {
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    {/* <Link to={item.url}>
-                      <item.icon />
-                      <span className="text-base">{item.title}</span>
-                    </Link> */}
                     <a href={item.url}>
                       <item.icon />
                       <span className="text-base">{item.title}</span>
@@ -67,7 +63,7 @@ export function AppSidebar() {
       <SidebarFooter>
         <div className="flex justify-centerc items-center ml-7 h-12 text-md">
           <Avatar className="h-8 w-8 rounded-lg">
-            <AvatarImage src={"/vite.svg"} alt="{user.name}" />
+            <AvatarImage src={"/pfp2.jpg"} alt="{user.name}" />
 
             <AvatarFallback className="rounded-lg">CN</AvatarFallback>
           </Avatar>

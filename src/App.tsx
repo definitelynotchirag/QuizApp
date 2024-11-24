@@ -5,7 +5,7 @@ import Signup from "./pages/signup";
 import Home from "./pages/home";
 import TranscriptGenerator from "./pages/transcript";
 import QuizGenerator from "./pages/quizgen";
-import QuizInterface from "./pages/playquiz";
+import Quiz from "./components/quiz";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/transcript" element={<TranscriptGenerator />} />
           <Route path="/quiz" element={<QuizGenerator />} />
-          <Route path="/playquiz" element={<QuizInterface/>}></Route>
+          <Route path="/:quizId" element={<Quiz />} />
         </Routes>
       </BrowserRouter>
     </div>
