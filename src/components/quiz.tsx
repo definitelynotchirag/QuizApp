@@ -121,11 +121,11 @@ const Quiz = () => {
     try {
       const shuffledQuestions = shuffleArray(data.quiz.questions).map(
         (question) => {
-          const entries = Object.entries(question.options);
-          const shuffledEntries = shuffleArray(entries);
+          // const entries = Object.entries(question.options);
+          // const shuffledEntries = shuffleArray(entries);
           return {
             ...question,
-            options: Object.fromEntries(shuffledEntries),
+            options: question.options,
           };
         }
       );
